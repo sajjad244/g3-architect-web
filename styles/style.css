@@ -108,6 +108,9 @@ main{
     .teams{
         flex-direction: column;
     }
+    .teams{
+        margin-left: 1px;
+    }
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
