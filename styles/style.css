@@ -25,6 +25,10 @@ body{
     border-radius: 8px;
 }
 
+.section-title{
+    font-size: 2.8rem;
+}
+
 /* header styles */
 
 
@@ -93,9 +97,7 @@ main{
     margin-left: 130px;
     max-width: 530px;
 }
-.feature-title{
-    font-size: 2.8rem;
-}
+
 #change{
     color: #FF900E;
     font-weight: 500;
@@ -105,7 +107,8 @@ main{
 @media screen and (max-width: 576px) {
     .navbar,
     .nav-links,
-    .teams{
+    .teams
+    {
         flex-direction: column;
     }
     .teams{
